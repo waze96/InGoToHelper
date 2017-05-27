@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gestio_fills"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ausias.ingotohelper.GestioFillsActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/memeScroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+
+            android:id="@+id/childrenLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibAddFill"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:background="#656565"
+            android:onClick="onClickAddChild"
+            app:srcCompat="@drawable/add_user" />
+
+        <ImageButton
+            android:id="@+id/ibRemoveFill"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:background="#656565"
+            app:srcCompat="@drawable/remove_child" />
+
+        <ImageButton
+            android:id="@+id/ibGoMain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#656565"
+            android:clickable="false"
+            android:onClick="onClickGoMain"
+            android:saveEnabled="false"
+            app:srcCompat="@drawable/arrow_right" />
+
+    </LinearLayout>
+
+</LinearLayout>

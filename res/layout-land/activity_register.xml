@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ausias.ingotohelper.RegisterActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dades">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/nomText"
+                android:hint="@string/nom"
+                style="@android:style/Widget.EditText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/cognomText"
+                android:hint="@string/Cognom"
+                style="@android:style/Widget.EditText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/cognom2Text"
+                android:hint="@string/SegonCognom"
+                style="@android:style/Widget.EditText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/dniText"
+                android:hint="@string/dni"
+                android:maxLength="9"
+                style="@android:style/Widget.EditText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/ciutatText"
+                android:hint="@string/Ciutat"
+                style="@android:style/Widget.EditText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/carrerText"
+                android:hint="@string/Carrer"
+                style="@android:style/Widget.EditText" />
+
+            <EditText
+                android:id="@+id/codipostalText"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:ems="10"
+                android:hint="@string/Codipostal"
+                android:inputType="number"
+                android:maxLength="5"
+                android:selectAllOnFocus="false"
+                android:singleLine="false" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/telefonText"
+                android:hint="@string/telefon"
+                android:inputType="phone"
+                android:maxLength="9"
+                style="@android:style/Widget.EditText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textWebEmailAddress"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/correuText"
+                android:hint="@string/Correu" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/PasswordText"
+                android:hint="@string/Password"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:id="@+id/photoBox">
+
+            <ImageView
+                android:id="@+id/Photo"
+                android:layout_width="99dp"
+                android:layout_height="77dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/default_profile"/>
+
+            <Button
+                android:text="@string/afegirFoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fotoButton"
+                android:onClick="onClickPhoto"
+                style="@android:style/Widget.Button.Small" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:text="@string/Registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/button"
+        style="@android:style/Widget.Button.Small"
+        android:onClick="saveRegister" />
+
+
+</LinearLayout>

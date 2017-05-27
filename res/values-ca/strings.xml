@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IngotosHelper</string>
+    <string name="nom">Nom</string>
+    <string name="Cognom">Cognom</string>
+    <string name="SegonCognom">Segon Cognom</string>
+    <string name="dni">DNI</string>
+    <string name="Ciutat">Ciutat</string>
+    <string name="Carrer">Carrer</string>
+    <string name="Codipostal">Codipostal</string>
+    <string name="telefon">Tèlefon</string>
+    <string name="Correu">Correu</string>
+    <string name="Password">Contrasenya</string>
+    <string name="afegirFoto">Afegir Foto </string>
+    <string name="Registrar">Registrar</string>
+    <string name="perfil">Perfil</string>
+    <string name="gestio_fills">Gestio Fills</string>
+    <string name="configuraci">Configuració</string>
+    <string name="sobre_nosaltres">Sobre Nosaltres</string>
+    <string name="altres">Altres</string>
+    <string name="exit">Sortir</string>
+    <string name="tickets">Tickets</string>
+    <string name="action_settings">Configuració</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="chats">Xats</string>
+    <string name="error_field_required">Aquest camp es necessari</string>
+    <string name="error_incorrect_password">Contrasenya Incorrecte</string>
+    <string name="Borrar">Borrar</string>
+    <string name="Guardar">Guardar</string>
+    <string name="addFill">Afegir Fill</string>
+    <string name="friends">Amics</string>
+    <string name="notification">Notificacions</string>
+</resources>

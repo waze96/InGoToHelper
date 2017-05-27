@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IngotosHelper</string>
+    <string name="nom">Nombre</string>
+    <string name="Cognom">Apellido</string>
+    <string name="SegonCognom">Segundo Apellido</string>
+    <string name="dni">DNI</string>
+    <string name="Ciutat">Ciudad</string>
+    <string name="Carrer">Calle</string>
+    <string name="Codipostal">Codigo Postal</string>
+    <string name="telefon">Telefono</string>
+    <string name="Correu">Correo</string>
+    <string name="Password">Contraseña</string>
+    <string name="afegirFoto">Agregar Foto </string>
+    <string name="Registrar">Registrar</string>
+    <string name="perfil">Perfil</string>
+    <string name="gestio_fills">Gestion Hijos</string>
+    <string name="configuraci">Preferencias</string>
+    <string name="sobre_nosaltres">Sobre Nosotros</string>
+    <string name="altres">Otros</string>
+    <string name="exit">Log Out</string>
+    <string name="tickets">Tickets</string>
+    <string name="people_near">Gente cerca</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="chats">Chats</string>
+    <string name="error_field_required">Este campo es necessario</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="Borrar">Borrar</string>
+    <string name="Guardar">Guardar</string>
+    <string name="addFill">Añadir Hijo</string>
+    <string name="friends">Amigos</string>
+    <string name="notification">Notificaciones</string>
+</resources>

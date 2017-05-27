@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IngotosHelper</string>
+    <string name="nom">Name</string>
+    <string name="Cognom">Lastname</string>
+    <string name="SegonCognom">MiddleName</string>
+    <string name="dni">NIF</string>
+    <string name="Ciutat">City</string>
+    <string name="Carrer">Street</string>
+    <string name="Codipostal">PostalCode</string>
+    <string name="telefon">Phone</string>
+    <string name="Correu">eMail</string>
+    <string name="Password">Password</string>
+    <string name="afegirFoto">Upload Photo </string>
+    <string name="Registrar">Register</string>
+    <string name="perfil">Profile</string>
+    <string name="gestio_fills">Child Managment</string>
+    <string name="configuraci">Settings</string>
+    <string name="sobre_nosaltres">About Us</string>
+    <string name="altres">Others</string>
+    <string name="exit">Log Out</string>
+    <string name="tickets">Tickets</string>
+    <string name="people_near">People near</string>
+    <string name="friends">Friends</string>
+    <string name="chats">Chats</string>
+    <string name="notification">Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">Incorrect Password</string>
+    <string name="error_invalid_email">Invalid eMail</string>
+    <string name="Borrar">Delete</string>
+    <string name="Guardar">Save</string>
+    <string name="addFill">Add Childre</string>
+</resources>

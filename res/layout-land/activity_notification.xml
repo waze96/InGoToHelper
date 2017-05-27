@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#699BD6">
+
+        <ImageButton
+            android:id="@+id/ibFriendRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#699BD6"
+            android:onClick="onClickRequests"
+            app:srcCompat="@drawable/add_user" />
+
+        <ImageButton
+            android:id="@+id/ibNotifications"
+            android:layout_marginTop="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickNotifications"
+            app:srcCompat="@drawable/notifications"
+            android:background="#699BD6" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>

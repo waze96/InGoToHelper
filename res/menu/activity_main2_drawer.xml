@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/map"
+            android:title="@string/people_near" />
+        <item
+            android:id="@+id/nav_manageChild"
+            android:icon="@drawable/kids"
+            android:title="@string/gestio_fills" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notifications"
+            android:title="@string/notification" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="@string/chats" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/black_settings_button"
+            android:title="@string/configuraci" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/sobre_nosaltres" />
+    </group>
+
+    <item android:title="@string/altres">
+        <menu>
+            <item
+                android:id="@+id/nav_ticket"
+                android:icon="@drawable/label"
+                android:title="@string/tickets" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>
